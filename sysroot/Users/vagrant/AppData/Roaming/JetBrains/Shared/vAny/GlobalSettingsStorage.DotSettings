@@ -1,0 +1,30 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=Machine_002ESpecifications_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+  <s:String x:Key="/Default/CodeStyle/FileHeader/FileHeaderText/@EntryValue">=============================================================================&#xD;
+&lt;copyright file="$FILENAME$" company="Soneta sp. z o.o."&gt;&#xD;
+    Copyright (c) $CURRENT_YEAR$ Soneta sp. z o.o. All rights reserved.&#xD;
+&lt;/copyright&gt;&#xD;
+=============================================================================&#xD;
+</s:String>
+  <s:String x:Key="/Default/Environment/Editor/MatchingBraceHighlighting/Style/@EntryValue">OUTLINE</s:String>
+  <s:String x:Key="/Default/Environment/ErrorStripe/ErrorStripeWidth/@EntryValue">Wide</s:String>
+  <s:Boolean x:Key="/Default/Environment/Feedback/ShouldPrompt/@EntryValue">False</s:Boolean>
+  <s:Boolean x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/PaintOutput/@EntryValue">False</s:Boolean>
+
+  <s:Int64 x:Key="/Default/Environment/Hierarchy/Build/SolutionBuilderNext/ParallelProcessesCount2/@EntryValue">3</s:Int64>
+  <s:Boolean x:Key="/Default/Environment/Hierarchy/Build/SolutionBuilderNext/ShouldRestoreNugetPackages/@EntryValue">True</s:Boolean>
+  <s:String x:Key="/Default/Environment/Hierarchy/PsiConfigurationSettingsKey/LocationType/@EntryValue">SOLUTION_FOLDER</s:String>
+  <s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=60D53285ED436646B5F55B61C390C6B1/@KeyIndexDefined">True</s:Boolean>
+  <s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=60D53285ED436646B5F55B61C390C6B1/AbsolutePath/@EntryValue">C:\Users\vagrant\MyProjects\CodeStyles\ReSharper\Resharper.DotSettings</s:String>
+  <s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=60D53285ED436646B5F55B61C390C6B1/RelativePath/@EntryValue">..\..\..\..\..\..\MyProjects\CodeStyles\ReSharper\Resharper.DotSettings</s:String>
+  <s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File60D53285ED436646B5F55B61C390C6B1/@KeyIndexDefined">True</s:Boolean>
+  <s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File60D53285ED436646B5F55B61C390C6B1/RelativePriority/@EntryValue">1</s:Double>
+  <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAddAccessorOwnerDeclarationBracesMigration/@EntryIndexedValue">True</s:Boolean>
+  <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAlwaysTreatStructAsNotReorderableMigration/@EntryIndexedValue">True</s:Boolean>
+  <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+  <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateThisQualifierSettings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/FeedbackReport/SelectedUserIdentificator/@EntryValue">anonymous</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/UseInline/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/UpgradeFromExceptionReport/UpgradePerformed/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UpdatesManger/LastUpdateCheck/@EntryValue">02/22/2017 10:56:36</s:String></wpf:ResourceDictionary>
