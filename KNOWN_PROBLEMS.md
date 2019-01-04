@@ -16,20 +16,6 @@
 
 ```
 ==> vs2017: Running provisioner: shell...
-    vs2017: Running: script: ("meslolg.dz") | ?{@(Get-Package $_ -ErrorAction Ignore).Count -eq 0} | %{Install-Package $_ -Force}
-    vs2017: WARNING: Unable to download from URI 'https://github.com/downloads/andreberg/Meslo-Font/Meslo LG DZ v1.0.zip' to ''.
-    vs2017: Install-Package : The archive file type is not supported.
-    vs2017: At C:\tmp\vagrant-shell.ps1:1 char:89
-    vs2017: + ...  $_ -ErrorAction Ignore).Count -eq 0} | %{Install-Package $_ -Force};
-    vs2017: +                                               ~~~~~~~~~~~~~~~~~~~~~~~~~
-    vs2017:     + CategoryInfo          : NotImplemented: (C:\Users\vagran...tey\install.zip:String) [Install-Package], Exception
-    vs2017:     + FullyQualifiedErrorId : UnsupportedArchive,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
-```
-
-> MESLO LG.DZ font is marked as broken in the chocolatey ...
-
-```
-==> vs2017: Running provisioner: shell...
     vs2017: Running: script: Install-VisualStudio2017Extensions C:\Users\vagrant\cfg.json
     vs2017: C:\Users\vagrant\AppData\Local\Temp\enovaMSDN.SonetaStudioExtPackage.vsix
     vs2017: powershell.exe : Invoke-WebRequest : {"$id":"1","innerException":null,"message":"Anonymous usage from IP address 178
