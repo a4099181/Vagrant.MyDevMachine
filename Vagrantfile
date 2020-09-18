@@ -121,7 +121,7 @@ Vagrant.configure(2) do |config|
   ps_elev config.vm, 'Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression'
   ps_elev config.vm, "choco install powershell-core -y"
   ps7_elev config.vm, "Install-CommonPackages #{cfg_file}"
-  ps7_elev config.vm, "Install-Module PSKubectlCompletion -Force"
+  ps7_elev config.vm, '("PSKubectlCompletion","JWT","MyTask") | % { Install-Module $_ -Force }'
   ps7_elev config.vm, 'robocopy sysroot c:\ /S /NDL /NFL' if Dir.exist? 'sysroot'
   ps7_nonp config.vm, "Expand-DownloadedArchive #{cfg_file}"
   ps7_elev config.vm, "Add-WindowsCredentials #{cfg_file} #{key_file}"
