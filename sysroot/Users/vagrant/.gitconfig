@@ -5,6 +5,7 @@
 	b = branch
 	br = branch --remote
 	c = commit
+	clean-safe = clean --exclude .vs --exclude .vscode --exclude _ReSharper.Caches -dx
 	co = checkout
 	cp = cherry-pick
 	cl = clone
@@ -15,7 +16,7 @@
 	fl = flow
 	flf = flow feature
 	flfco = flow feature checkout
-	flfr = flow feature rebase
+	flfrb = flow feature rebase
 	flr = flow release
 	last = log -1 --stat
 	lo = log --oneline --decorate
@@ -32,6 +33,11 @@
 	unstage = reset HEAD --
 	wip = commit --interactive --message --wip-
 	wip-amend = commit --interactive --message --wip- --amend
+	wt = worktree
+	wtls = worktree list
+	wtrm = worktree remove
+	wta = worktree add
+	wtmv = worktree move
 [core]
 	autcrlf = false
 [mergetool "tortoisemerge"]
